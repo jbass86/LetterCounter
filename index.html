@@ -3,34 +3,37 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		
-		<link rel="stylesheet" href="app.css">
-		<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-		<script type = "text/javascript" src="letterCounter.js"></script>
+		<link rel="stylesheet" href="css/app.css">
+		<script type="text/javascript" src="javascript/jquery-1.11.0.min.js"></script>
+		<script type = "text/javascript" src="javascript/letterCounter.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<script src="javascript/bootstrap.min.js"></script>
+
 		<title>Letter Counting</title>
 	</head>
 
 	<body>
 		<div class="container">
 			<div class="textDiv">
-				<div class="inputText">Enter Text: </div>
-				<input class="textToParse"></input>
+				<div class="inputText"><strong>Enter Text:</strong> </div>
+				<input type="text" placeholder="Type something..." class="textToParse input-large"></input>
 			</div>
 			<div class="buttonPanel">
-				<button class="calculateButton" onclick="countLetters();">Calculate</button>
-				<button class="resetButton" onclick="reset();">Reset</button>
+				<button class="calculateButton btn btn-large btn-primary" onclick="countLetters();">Calculate</button>
+				<button class="resetButton btn btn-large btn-inverse" onclick="reset();">Reset</button>
 			</div> 
 		
 			<div class="tableContainer">
-				<table align="center" class="letterTable">
+				<table align="center" class="letterTable pressedBorder">
 					<tr>
-						<td>A</td>
-						<td>B</td>
-						<td>C</td>
-						<td>D</td>
-						<td>E</td>
-						<td>F</td>
-						<td>G</td>
-						<td>H</td>
+						<td><strong>A</strong></td>
+						<td><strong>B</strong></td>
+						<td><strong>C</strong></td>
+						<td><strong>D</strong></td>
+						<td><strong>E</strong></td>
+						<td><strong>F</strong></td>
+						<td><strong>G</strong></td>
+						<td><strong>H</strong></td>
 					</tr>
 					<tr>
 						<td class="numA">0</td>
@@ -43,14 +46,14 @@
 						<td class="numH">0</td>
 					</tr>
 					<tr>
-						<td>I</td>
-						<td>J</td>
-						<td>K</td>
-						<td>L</td>
-						<td>M</td>
-						<td>N</td>
-						<td>O</td>
-						<td>P</td>
+						<td><strong>I</strong></td>
+						<td><strong>J</strong></td>
+						<td><strong>K</strong></td>
+						<td><strong>L</strong></td>
+						<td><strong>M</strong></td>
+						<td><strong>N</strong></td>
+						<td><strong>O</strong></td>
+						<td><strong>P</strong></td>
 					</tr>
 					<tr>
 						<td class="numI">0</td>
@@ -63,14 +66,14 @@
 						<td class="numP">0</td>
 					</tr>
 					<tr>
-						<td>Q</td>
-						<td>R</td>
-						<td>S</td>
-						<td>T</td>
-						<td>U</td>
-						<td>V</td>
-						<td>W</td>
-						<td>X</td>
+						<td><strong>Q</strong></td>
+						<td><strong>R</strong></td>
+						<td><strong>S</strong></td>
+						<td><strong>T</strong></td>
+						<td><strong>U</strong></td>
+						<td><strong>V</strong></td>
+						<td><strong>W</strong></td>
+						<td><strong>X</strong></td>
 					</tr>
 					<tr>
 						<td class="numQ">0</td>
@@ -83,8 +86,8 @@
 						<td class="numX">0</td>
 					</tr>
 					<tr>
-						<td>Y</td>
-						<td>Z</td>
+						<td><strong>Y</strong></td>
+						<td><strong>Z</strong></td>
 					</tr>
 					<tr>
 						<td class="numY">0</td>
