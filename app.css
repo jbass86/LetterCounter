@@ -53,7 +53,8 @@
 	
 .letterTable{
 	position: relative;
-	left: 38%;
+	/*left: 38%;*/
+	text-align: center;
 	border: 1px solid black;
 }
 
