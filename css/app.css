@@ -1,7 +1,29 @@
 @CHARSET "ISO-8859-1";
 
-html{
-	height: 100%;
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -28px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 28px; 
+}
+.site-footer {
+  background: #FF9900;
+  text-align: center;
+}
+
+.site-footer button{
+	padding-top: 3px;
 }
 
 body{
