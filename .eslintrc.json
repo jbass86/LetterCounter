@@ -7,9 +7,13 @@
             "jsx": true
         }
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended"
+    ],
     "rules": {
-        "no-unused-vars": "warn"
+        "no-unused-vars": "warn",
+        "react/jsx-uses-react": "error",   
+        "react/jsx-uses-vars": "error" 
     },
     "env": {
         "browser": true,

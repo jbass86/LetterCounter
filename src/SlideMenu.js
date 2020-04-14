@@ -2,12 +2,11 @@
 
 import React from "react"; // eslint-disable-line no-unused-vars
 import { Drawer, List, ListItem, ListItemText, ListItemIcon, Divider, makeStyles } from '@material-ui/core';
-import CancelIcon from '@material-ui/icons/Cancel';
 import BrushIcon from '@material-ui/icons/Brush';
 import LayersClearIcon from '@material-ui/icons/LayersClear';
 import FontDownloadIcon from '@material-ui/icons/FontDownload';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     "& .MuiPaper-root": {
       "min-width": "350px",

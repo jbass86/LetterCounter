@@ -5,7 +5,7 @@ import { Card, TextField, makeStyles, Table, TableBody, TableRow, TableCell, Ico
 import CloseIcon from '@material-ui/icons/Close';
 import CancelIcon from '@material-ui/icons/Cancel';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     overflow: "visible",
     position: "relative",
@@ -57,7 +57,7 @@ function Counter(props) {
 
   return (
     <Card className={classes.root}>
-      <IconButton className={classes.closebutton} onClick={(ev) => props.handleClose()}>
+      <IconButton className={classes.closebutton} onClick={() => props.handleClose()}>
         <CloseIcon />
       </IconButton>
       <form noValidate autoComplete="off">

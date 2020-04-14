@@ -30,7 +30,7 @@ const StyledBox = styled(Box)({
 
 let Main = class MainApp extends React.Component {
 
-  constructor(props) {
+  constructor() {
     super();
 
     const theme = localStorage.getItem("lettercounter-theme") || "light";
