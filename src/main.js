@@ -25,7 +25,8 @@ const lightTheme = createMuiTheme({
 
 const StyledBox = styled(Box)({
   "background": props => props.theme ? props.theme.palette.background.default : "white",
-  padding: "25px"
+  padding: "25px",
+  "min-height": "calc(100% - 114px)"
 });
 
 let Main = class MainApp extends React.Component {

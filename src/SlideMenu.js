@@ -26,9 +26,6 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-/**
- * @param {{ open: boolean | undefined; onClose: ((event: {}, reason: "backdropClick" | "escapeKeyDown") => void) | undefined; }} props
- */
 function SlideMenu(props) {
 
   const classes = useStyles();
