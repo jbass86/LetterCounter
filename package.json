@@ -28,7 +28,7 @@
     "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-eslint": "^6.0.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack": "^4.42.1",
